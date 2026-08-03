@@ -56,7 +56,7 @@ Agent: Operating in TESTING mode. I can provide more detailed information for ed
 ## Installation
 
 ```bash
-clawhub install security-shield-enhanced
+clawhub install security-shield
 ```
 
 ## Configuration
