@@ -21,6 +21,6 @@
   },
   "installation": {
     "method": "clawhub",
-    "command": "clawhub install security-shield-enhanced"
+    "command": "clawhub install security-shield"
   }
 }
