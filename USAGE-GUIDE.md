@@ -100,7 +100,7 @@ clawhub security logs --recent
 
 ### Update Skill
 ```bash
-clawhub update security-shield-enhanced
+clawhub update security-shield
 ```
 
 ### Report Issues
