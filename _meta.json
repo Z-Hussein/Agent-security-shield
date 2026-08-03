@@ -1,0 +1,26 @@
+{
+  "name": "security-shield-enhanced",
+  "version": "1.1.0",
+  "description": "Defense against prompt injection, jailbreaks, social engineering, and credential leakage with enhanced workflow compatibility.",
+  "author": "Z-Hussein",
+  "license": "MIT-0",
+  "keywords": ["security", "safety", "credential-protection", "defensive"],
+  "compatibility": {
+    "openclaw": ">=2026.3.0",
+    "platform": ["windows", "linux", "macos"]
+  },
+  "features": {
+    "workflow-compatibility": true,
+    "enhanced-explanations": true,
+    "controlled-exceptions": true,
+    "detailed-logging": true
+  },
+  "security": {
+    "pattern-strings": false,
+    "abstract-descriptions": true
+  },
+  "installation": {
+    "method": "clawhub",
+    "command": "clawhub install security-shield-enhanced"
+  }
+}
