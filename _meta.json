@@ -1,5 +1,5 @@
 {
-  "name": "security-shield-enhanced",
+  "name": "security-shield",
   "version": "1.1.0",
   "description": "Defense against prompt injection, jailbreaks, social engineering, and credential leakage with enhanced workflow compatibility.",
   "author": "Z-Hussein",
