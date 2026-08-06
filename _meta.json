@@ -1,19 +1,24 @@
 {
   "name": "security-shield",
-  "version": "1.1.0",
-  "description": "Defense against prompt injection, jailbreaks, social engineering, and credential leakage with enhanced workflow compatibility.",
+  "version": "2.0.1",
+  "description": "Security checks for anything entering the system from outside - internet content, downloads, and new resources. External information is never trusted until evidence confirms it cannot harm the system.",
   "author": "Z-Hussein",
   "license": "MIT-0",
-  "keywords": ["security", "safety", "credential-protection", "defensive"],
+  "keywords": ["security", "safety", "external-content", "download-verification", "credential-protection", "prompt-injection", "defensive"],
   "compatibility": {
     "openclaw": ">=2026.3.0",
     "platform": ["windows", "linux", "macos"]
   },
   "features": {
-    "workflow-compatibility": true,
-    "enhanced-explanations": true,
-    "controlled-exceptions": true,
-    "detailed-logging": true
+    "external-content-verification": true,
+    "download-integrity-check": true,
+    "evidence-before-trust": true,
+    "sandbox-isolation": true,
+    "supply-chain-security": true,
+    "prompt-injection-defense": true,
+    "credential-protection": true,
+    "detailed-logging": true,
+    "full-system-audit": true
   },
   "security": {
     "pattern-strings": false,
@@ -21,6 +26,8 @@
   },
   "installation": {
     "method": "clawhub",
-    "command": "clawhub install security-shield"
+    "command": "openclaw skills install @z-hussein/security-shield",
+    "cross-agent-command": "npx skills add https://clawhub.ai/z-hussein/skills/security-shield",
+    "page": "https://clawhub.ai/z-hussein/skills/security-shield"
   }
 }
