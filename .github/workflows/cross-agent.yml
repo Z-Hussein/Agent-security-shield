@@ -1,0 +1,23 @@
+name: Cross-Agent Install Check
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  npx-skills-add:
+    name: npx skills add (ClawHub)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install skill via skills CLI
+        run: |
+          npx --yes skills add https://clawhub.ai/z-hussein/skills/security-shield --all --yes
+        working-directory: ${{ runner.temp }}
+      - name: Verify installed skill
+        run: |
+          test -f "${{ runner.temp }}/.agents/skills/security-shield/SKILL.md" && echo "SKILL.md PRESENT" || exit 1
+          test -d "${{ runner.temp }}/.agents/skills/security-shield/references" && echo "references PRESENT" || exit 1
+          echo "CROSS-AGENT INSTALL OK"
