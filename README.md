@@ -6,7 +6,7 @@
 
 Verify everything external - internet content, downloads, and new resources - before anything is trusted. External information is never trusted until evidence proves it cannot harm the system.
 
-[![ClawHub Downloads](https://img.shields.io/badge/ClawHub-1.3K%20Downloads-blue?style=flat-square&logo=cloudsmith)](https://clawhub.ai/z-hussein/skills/security-shield)
+[![ClawHub Downloads](https://img.shields.io/badge/ClawHub-1.4K%20Downloads-blue?style=flat-square&logo=cloudsmith)](https://clawhub.ai/z-hussein/skills/security-shield)
 [![License](https://img.shields.io/badge/License-MIT--0-green?style=flat-square)](LICENSE)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-%3E%3D2026.3.0-orange?style=flat-square)](https://openclaw.com)
 [![GitHub Stars](https://img.shields.io/github/stars/Z-Hussein/security-shield?style=flat-square&logo=github)](https://github.com/Z-Hussein/security-shield)
