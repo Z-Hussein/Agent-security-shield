@@ -219,7 +219,7 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## 📊 Stats
 
-- **1,300+** ClawHub downloads
+- **1,400+** ClawHub downloads
 - **13** security principles
 - **4** reference documents
 - **1** simple rule: trust nothing external until proven safe
